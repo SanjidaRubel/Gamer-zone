@@ -2,7 +2,7 @@
 
 
 
-.nav-content{
+/* .nav-content{
     display: flex;
     padding-right: 600px;
 }
@@ -46,8 +46,78 @@ nav li{
 .nav-item{
     
 }
+ */
+
+nav{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-img-div{
+    width: 50%;
+    display: flex;
+}
+.menu-follow{
+    display: flex;
+    
+   
+
+}
+nav ul{
+    display: flex;
+    
+}
+
+nav li {
+    list-style: none;
+   
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+.follow{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    background-color: aliceblue;
+    padding-left: 10px;
+    border-radius: 10px;
+   
+}
+.follow p{
+    margin-right: 20px;
+}
+.follow img{
+    padding-bottom: 20px;
+}
+nav img{
+        width: 30px;
+        height: 20px;
+        padding-top: 22px ;
+        padding-left: 0px;
+    }
+nav h1{
+    color:#0B0223 ;
+    padding-left: 10px;
+}
+.g{
+    
+    color: rgb(211, 0, 193);
+}
 
 
+
+
+
+
+
+
+
+
+ 
 
 /* banner styles */
 .banner{
@@ -170,11 +240,12 @@ margin-bottom: 20px;
 }
 .funny-image{
    display: flex;
-    
+
 }
-.image{
-    width: 200px; 
+.funny-image img{
+    width: 200px;
 }
+
 
 /* section play style */
 .play{
@@ -252,6 +323,7 @@ margin-bottom: 20px;
     width: 150px;
     margin-bottom: 20px;
 }
+
 .games-5{
     display: flex;
     background-color: white;
@@ -360,4 +432,59 @@ margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 5px;
     margin-top: 5px;
+}
+/* footer style */
+
+.footer{
+    background-color: black;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.footer-anchor{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    color: darkkhaki;
+    /* margin: 40px; */
+}
+.footer-anchor  li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-icon{
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.footer-logo-div img{
+    width: 30px;
+    height: 20px;
+    padding-top: 22px ;
+    margin-right: 10px;
+}
+
+.footer-logo-div h1{
+color: aliceblue;
+}
+
+.footer-logo-div {
+    display: flex;
+    margin-left: 200px;
+}
+.pink-g{
+    color: deeppink;
+}
+.footer-list{
+    display: flex;
+    color: dimgray;
+    list-style: none;
+    margin-left: 30px;
+    padding-left: 40px;
 }
