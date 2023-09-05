@@ -187,7 +187,7 @@ margin-bottom: 20px;
 .play-image-2{
     width: 150px;
     margin: 5px;
-    tran
+    padding-left: -50px;
 }
 
 .play-image-div{
@@ -208,4 +208,156 @@ margin-bottom: 20px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
+}
+
+/* section games style */
+.games{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: antiquewhite;
+    padding: 100px;
+    
+}
+.games-1{
+    display: flex;
+   background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+.games-2{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+.games-3{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.games-4{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.games-5{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.games-6{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    
+}
+.games-7{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.games-8{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.games-9{
+    display: flex;
+    background-color: white;
+    border: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.game-image-1{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-2{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-3{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-4{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-5{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-6{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;}
+    
+.game-image-7{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-8{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.game-image-9{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
