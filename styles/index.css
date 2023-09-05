@@ -7,24 +7,18 @@
     padding-right: 600px;
 }
 
-
-
-
-
 .g{
     
-    color: deeppink;
+    color: rgb(211, 0, 193);
 }
 .nav-title{
     color:#0B0223 ;
     padding-left: 10px;
-    
 }
 
 nav{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    
 }
 nav img{
     width: 30px;
@@ -45,48 +39,55 @@ nav li{
     margin-right: 50px;
     color:#3C354F ;
 }
-.btn-nav{
-    border-radius: 8px;
-    color: #3C354F;
-    border: none;
+.nav-follow{
+  background-color: darkgrey;
+ padding: 10px ;
 }
+.nav-item{
+    
+}
+
+
 
 /* banner styles */
 .banner{
     display: flex;
-    justify-content: space-between;
-    border: 2px solid blueviolet;
     background-image: url(../images/Group\ 14.png);
-    
+   background-repeat: no-repeat;
+   
     
 }
+.banner-content{
+    width: 50%;
+    padding-left: 50px;
+    
+ }
+
+
 .banner-title{
     font: work sans;
-    font-size: 95px;
+    font-size: 50px;
     font-weight: 800;
-    justify-content: center;
     color: rgb(211, 0, 193);
-
+    padding: 0px;
 }
 
 
 
-.banner-content{
-   justify-content: center;
-   align-items: center;
-   
-}
+
 .banner-about{
     font-size: 40px;
     font-weight: 600;
-    /* justify-content: center;
-    align-items: center;
-   padding-bottom: 0px;
-   margin-bottom: 0px; */
+    padding: 0px;
+    
 }
 
 .banner-image{
-   
+   width: 600px;
+   height: 400px;
+}
+.banner-image-div{
+    padding-right: 50px;
 }
 
 .btn-pink{
@@ -94,6 +95,7 @@ nav li{
     padding: 10px 20px;
     color: aliceblue;
     background-color: deeppink;
+    border: none;
 }
 
 .btn-blue{
@@ -101,15 +103,62 @@ nav li{
     padding: 10px 20px;
     color: aliceblue;
     background-color: dodgerblue;
+    border: none;
+}
+
+/* section gamer style */
+.gamer{
+    background-color: floralwhite;
+    display: flex;
+     padding: 100px;
+}
+   
+    
+.gamer-image-div{
+    width: 50%;
+}
+.gamer-image{
+    width: 500px;
+}
+.gamer-title{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(211, 0, 193);
+
+}
+
+.gamer-content{
+color: darkslategray;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.gamer-description{
+    text-align: right;
+    width: 50%;
+}
+
+.gamer-purpose{
+    font-size: 18px;
+font-weight: 600;
+color: darkslategray;
+margin-top: 18px;
+margin-bottom: 0px;
+}
+.gamer-unleash{
+font-size: 30px;
+font-weight: 800;
+color: darkslategray;
+margin-top: 0px;
+margin-bottom: 20px;
 }
 
 
 /* section funny style */
 
 
-.funny-container{
-    /* justify-content: center; */
-    align-items: center;
+.funny-div{
+   text-align: center;
 
 }
 .funny-title{
@@ -120,7 +169,43 @@ nav li{
     color: rgb(211, 0, 193);
 }
 .funny-image{
+   display: flex;
+    
+}
+.image{
+    width: 200px; 
+}
+
+/* section play style */
+.play{
     display: flex;
-    /* margin: 10px; */
-    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+.play-image-1{
+    width: 400px;
+}
+.play-image-2{
+    width: 150px;
+    margin: 5px;
+    tran
+}
+
+.play-image-div{
+    width: 50%;
+    margin-left: 150px;
+    
+}
+.play-title{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.play-games{
+    color: rgb(211, 0, 193);
+}
+.play-description{
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
 }
